@@ -15,7 +15,7 @@ Depends:
   FLCore(>= 2.6.18),
   ggplotFL(>= 2.6.10),
   FLFishery,
-  FLasher(>= 0.6.7),
+  FLasherEMSRR (>= 0.6.7),
   FLBRP(>= 2.5.8),
   doFuture,
   data.table,
