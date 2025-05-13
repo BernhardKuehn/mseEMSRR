@@ -317,7 +317,7 @@ setMethod("performance", signature(x="FLom"),
 
     # DEFAULT statistics
     if(is.null(statistics))
-      statistics <- mse::statistics[c("SB0", "SBMSY", "FMSY", "C", "AAVC")]
+      statistics <- mseEMSRR::statistics[c("SB0", "SBMSY", "FMSY", "C", "AAVC")]
     
     return(performance(stock(x), refpts=refpts, metrics=metrics, 
       statistics=statistics, ...))

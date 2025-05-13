@@ -1,4 +1,4 @@
-Package: mse
+Package: mseEMSRR
 Title: Tools for Running Management Strategy Evaluations using FLR
 Version: 2.2.3.9354
 Authors@R: c(person(given = "Iago", family = "Mosqueira",
@@ -68,7 +68,7 @@ VignetteBuilder: knitr
 License: EUPL
 LazyLoad: true
 LazyData: false
-BugReports: https://github.com/flr/mse/issues
+BugReports: https://github.com/BernhardKuehn/mseEMSRR/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
