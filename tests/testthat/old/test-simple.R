@@ -8,7 +8,7 @@
 
 library(FLasher)
 library(FLBRP)
-library(mse)
+library(mseEMSRR)
 
 # LOAD OM (FLStock + FLSR)
 data(cod)

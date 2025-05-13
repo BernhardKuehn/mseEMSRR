@@ -1,5 +1,5 @@
 # mc.R - DESC
-# mse/R//mc.R
+# mseEMSRR/R//mc.R
 
 # Copyright European Union, 2017
 # Author: Iago Mosqueira (EC JRC) <iago.mosqueira@ec.europa.eu>

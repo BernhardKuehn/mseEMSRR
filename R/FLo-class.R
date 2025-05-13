@@ -1,5 +1,5 @@
 # FLo-class.R - DESC
-# mse/R/FLo-class.R
+# mseEMSRR/R/FLo-class.R
 
 # Copyright Iago MOSQUEIRA (WMR), 2020
 # Author: Iago MOSQUEIRA (WMR) <iago.mosqueira@wur.nl>

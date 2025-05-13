@@ -1,5 +1,5 @@
 # test-om.R - DESC
-# /home/mosqu003/Active/MSE_PKG@flr/mse/tests/testthat/test-om.R
+# /home/mosqu003/Active/MSE_PKG@flr/mseEMSRR/tests/testthat/test-om.R
 
 # Copyright (c) WUR, 2022.
 # Author: Iago MOSQUEIRA (WMR) <iago.mosqueira@wur.nl>

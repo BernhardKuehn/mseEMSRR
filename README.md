@@ -4,9 +4,9 @@ updated: 2023-02-16T09:52:55+01:00
 ---
 # mse <img src="man/figures/logo.png" align="right" width="120" />
 
-[![R-CMD-check](https://github.com/flr/mse/workflows/R-CMD-check/badge.svg)](https://github.com/flr/mse/actions)
+[![R-CMD-check](https://github.com/flr/mseEMSRR/workflows/R-CMD-check/badge.svg)](https://github.com/flr/mseEMSRR/actions)
 [![License](https://eddelbuettel.github.io/badges/GPL2+.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
-[![Codecov test coverage](https://codecov.io/gh/flr/mse/branch/master/graph/badge.svg)](https://codecov.io/gh/flr/mse?branch=master)
+[![Codecov test coverage](https://codecov.io/gh/flr/mseEMSRR/branch/master/graph/badge.svg)](https://codecov.io/gh/flr/mse?branch=master)
 ![r-universe](https://flr.r-universe.dev/badges/mse)
 
 ## Overview
@@ -35,7 +35,7 @@ Copyright (c) 2016-2022 European Union. European Commission Joint Research Centr
 ## Contact
 You are welcome to:
 
-- Submit suggestions and bug-reports at: <https://github.com/flr/mse/issues>
-- Send a pull request on: <https://github.com/flr/mse/>
+- Submit suggestions and bug-reports at: <https://github.com/flr/mseEMSRR/issues>
+- Send a pull request on: <https://github.com/flr/mseEMSRR/>
 - Authors: Iago Mosqueira, WUR. Ernesto Jardim, EC JRC.
 - Maintainer: Iago Mosqueira, WMR.

@@ -1,5 +1,5 @@
 # phcr.R - DESC
-# mse/R/phcr.R
+# mseEMSRR/R/phcr.R
 
 # Copyright European Union, 2018
 # Author: Ernesto Jardim (EC JRC) <ernesto.jardim@ec.europa.eu>

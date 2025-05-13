@@ -1,5 +1,5 @@
 # ind.R - DESC
-# mse/R/ind.R
+# mseEMSRR/R/ind.R
 
 # Copyright Iago MOSQUEIRA (WMR), 2021
 # Author: Iago MOSQUEIRA (WMR) <iago.mosqueira@wur.nl>

@@ -1,5 +1,5 @@
 # FLombf-class.R - DESC
-# mse/R/FLombf-class.R
+# mseEMSRR/R/FLombf-class.R
 
 # Copyright Iago MOSQUEIRA (WMR), 2020
 # Author: Iago MOSQUEIRA (WMR) <iago.mosqueira@wur.nl>

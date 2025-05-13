@@ -1,5 +1,5 @@
 # FLom-class.R - DESC
-# mse/R/FLom-class.R
+# mseEMSRR/R/FLom-class.R
 
 # Copyright European Union, 2018
 # Author: Ernesto JARDIM (MSC) <ernesto.jardim@msc.org>

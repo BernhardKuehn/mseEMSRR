@@ -1,5 +1,5 @@
 # dispatch.R - DESC
-# mse/R/dispatch.R
+# mseEMSRR/R/dispatch.R
 
 # Copyright European Union, 2018
 # Author: Ernesto Jardim (EC JRC) <ernesto.jardim@ec.europa.eu>

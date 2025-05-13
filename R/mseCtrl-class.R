@@ -1,5 +1,5 @@
 # mseCtrl.R - DESC
-# mse/R/mseCtrl-class.R
+# mseEMSRR/R/mseCtrl-class.R
 
 # Copyright European Union, 2018-2021
 # Author: Ernesto Jardim (EC JRC) <ernesto.jardim@ec.europa.eu>

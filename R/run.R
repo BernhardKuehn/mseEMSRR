@@ -1,5 +1,5 @@
 # run.R - DESC
-# mse/R/run.R
+# mseEMSRR/R/run.R
 
 # Copyright European Union, 2015-2016
 # Author: Iago Mosqueira (EC JRC) <iago.mosqueira@jrc.ec.europa.eu>

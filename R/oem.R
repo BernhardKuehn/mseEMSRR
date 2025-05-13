@@ -1,5 +1,5 @@
 # oem.R - DESC
-# mse/R/oem.R
+# mseEMSRR/R/oem.R
 
 # Copyright European Union, 2018
 # Author: Ernesto Jardim (EC JRC) <ernesto.jardim@ec.europa.eu>

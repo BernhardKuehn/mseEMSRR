@@ -1,5 +1,5 @@
 # test-mp_OMs.R - DESC
-# /home/mosqu003/FLR/mse/mse/tests/testthat/test-mp_OMs.R
+# /home/mosqu003/FLR/mseEMSRR/mseEMSRR/tests/testthat/test-mp_OMs.R
 
 # Copyright (c) WUR, 2024.
 # Author: Iago MOSQUEIRA (WMR) <iago.mosqueira@wur.nl>

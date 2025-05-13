@@ -1,5 +1,5 @@
 # mp.R - DESC
-# mse/R/mp.R
+# mseEMSRR/R/mp.R
 
 # Copyright European Union, 2018
 # Author: Ernesto Jardim (EC JRC) <ernesto.jardim@ec.europa.eu>

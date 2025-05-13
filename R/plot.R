@@ -1,5 +1,5 @@
 # plot.R - DESC
-# /home/mosquia/Active/MSE_PKG@flr/mse/R/plot.R
+# /home/mosquia/Active/MSE_PKG@flr/mseEMSRR/R/plot.R
 
 # Copyright (c) WUR, 2022.
 # Author: Iago MOSQUEIRA (WMR) <iago.mosqueira@wur.nl>

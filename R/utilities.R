@@ -1,5 +1,5 @@
 # utilities.R - DESC
-# mse/R/utilities.R
+# mseEMSRR/R/utilities.R
 
 # Copyright Iago MOSQUEIRA (WMR), 2021
 # Author: Iago MOSQUEIRA (WMR) <iago.mosqueira@wur.nl>

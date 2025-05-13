@@ -7,7 +7,7 @@
 # Distributed under the terms of the EUPL-1.2
 
 
-library(mse)
+library(mseEMSRR)
 library(FLa4a)
 
 library(doParallel)

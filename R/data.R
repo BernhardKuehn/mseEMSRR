@@ -1,5 +1,5 @@
 # data.R - Documentation for the mse package datasets
-# mse/R/data.R
+# mseEMSRR/R/data.R
 
 # Copyright Iago MOSQUEIRA (WMR), 2020
 # Author: Iago MOSQUEIRA (WMR) <iago.mosqueira@wur.nl>

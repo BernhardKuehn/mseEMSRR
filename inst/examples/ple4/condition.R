@@ -1,5 +1,5 @@
 # condition.R - OM conditioning for ICES PLE4 using FLa4a
-# mse/examples/ple4/condition.R
+# mseEMSRR/examples/ple4/condition.R
 
 # Copyright European Union, 2018
 # Authors: Finlay Scott (EC JRC)
@@ -10,7 +10,7 @@
 
 # LOAD packages
 
-library(mse)
+library(mseEMSRR)
 library(FLa4a)
 library(ggplotFL)
 

@@ -1,5 +1,5 @@
 # sa.R - Status and trend estimators and indicators.
-# mse/R/sa.R
+# mseEMSRR/R/sa.R
 
 # Copyright European Union, 2018-2021
 # Author: Iago Mosqueira (EC JRC) <iago.mosqueira@ec.europa.eu>

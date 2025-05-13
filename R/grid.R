@@ -1,5 +1,5 @@
 # grid.R - Functions to create grid of model and simulation runs
-# mse/R/grid.R
+# mseEMSRR/R/grid.R
 
 # Copyright European Union, 2018
 # Author: Iago Mosqueira (EC JRC) <iago.mosqueira@ec.europa.eu>

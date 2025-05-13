@@ -1,5 +1,5 @@
 # om.R - DESC
-# mse/R/om.R
+# mseEMSRR/R/om.R
 
 # Copyright (c) WUR, 2022.
 # Author: Iago MOSQUEIRA (WMR) <iago.mosqueira@wur.nl>

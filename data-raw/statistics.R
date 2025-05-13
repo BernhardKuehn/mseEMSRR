@@ -1,5 +1,5 @@
 # statistics.R - performance statistics
-# mse/data-raw/statistics.R
+# mseEMSRR/data-raw/statistics.R
 
 # Copyright European Union, 2018
 # Author: Iago Mosqueira (EC JRC) <iago.mosqueira@ec.europa.eu>

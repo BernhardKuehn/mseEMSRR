@@ -1,5 +1,5 @@
 # mpCtrl.R - DESC
-# mse/R/mpCtrl-class.R
+# mseEMSRR/R/mpCtrl-class.R
 
 # Copyright European Union, 2018-2021
 # Author: Ernesto Jardim (EC JRC) <ernesto.jardim@ec.europa.eu>

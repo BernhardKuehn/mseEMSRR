@@ -17,7 +17,7 @@ license: Creative Commons Attribution-ShareAlike 4.0 International
 ```{r, pkgs, echo=FALSE, message=FALSE}
 knitr::opts_chunk$set(collapse = T, comment = "#>",
   fig.align="center")
-library(mse)
+library(mseEMSRR)
 ```
 
 # Introduction
@@ -85,20 +85,20 @@ All these values can be simply overiden by including them in the *args* argument
 
 # More information
 
-* You can submit bug reports, questions or suggestions on `mse` at the `mse` issue page ^[<https://github.com/flr/mse/issues>], or on the *FLR* mailing list.
-* Or send a pull request to <https://github.com/flr/mse/>
+* You can submit bug reports, questions or suggestions on `mse` at the `mse` issue page ^[<https://github.com/flr/mseEMSRR/issues>], or on the *FLR* mailing list.
+* Or send a pull request to <https://github.com/flr/mseEMSRR/>
 * For more information on the FLR Project for Quantitative Fisheries Science in R, visit the FLR webpage ^[<http://flr-project.org>].
 * The latest version of `mse` can always be installed using the `devtools` package, by calling
 ```{r, devtools, echo=TRUE, eval=FALSE}
 	library(devtools)
-	install_github('flr/mse')
+	install_github('BernhardKuehn/mseEMSRR')
 ```
 
 ## Software Versions
 
 * `r version$version.string`
 * FLCore: `r packageVersion('FLCore')`
-* mse: `r packageVersion('mse')`
+* mseEMSRR: `r packageVersion('mseEMSRR')`
 * **Compiled**: `r date()`
 * **Git Hash**: `r system("git log --pretty=format:'%h' -n 1", intern=TRUE)`
 

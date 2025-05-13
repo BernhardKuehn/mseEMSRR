@@ -1,4 +1,4 @@
 library(testthat)
-library(mse)
+library(mseEMSRR)
 
 # test_check("mse")

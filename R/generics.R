@@ -1,5 +1,5 @@
 # generics.R - Method generics defined in the package
-# mse/R/generics.R
+# mseEMSRR/R/generics.R
 
 # Copyright Iago MOSQUEIRA (WMR), 2021
 # Author: Iago MOSQUEIRA (WMR) <iago.mosqueira@wur.nl>
