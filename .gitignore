@@ -1,2 +1,4 @@
 vignettes/tex/*
 .Rproj.user
+*.ppt
+*.pptx
