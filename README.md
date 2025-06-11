@@ -1,7 +1,3 @@
----
-created: 2023-02-16T09:52:55+01:00
-updated: 2023-02-16T09:52:55+01:00
----
 # mseEMSRR <img src="hexsticker/hexsticker.png" align="right" width="170" />
 
 [![R-CMD-check](https://github.com/flr/mseEMSRR/workflows/R-CMD-check/badge.svg)](https://github.com/flr/mseEMSRR/actions)
