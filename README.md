@@ -1,8 +1,4 @@
----
-created: 2023-02-16T09:52:55+01:00
-updated: 2023-02-16T09:52:55+01:00
----
-# mse <img src="man/figures/logo.png" align="right" width="120" />
+# mseEMSRR <img src="hexsticker/hexsticker.png" align="right" width="170" />
 
 [![R-CMD-check](https://github.com/flr/mseEMSRR/workflows/R-CMD-check/badge.svg)](https://github.com/flr/mseEMSRR/actions)
 [![License](https://eddelbuettel.github.io/badges/GPL2+.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
@@ -12,18 +8,12 @@ updated: 2023-02-16T09:52:55+01:00
 ## Overview
 
 Tools for constructing, running and analyzing Management Strategy Evaluation simulations using FLR.
+This fork of the 'mse' package allows the use to integrate environmentally-driven stock-recruitment relationships explicitly, by building on the 'FLasherEMSRR' package. 
 
 ## Installation
 To install this package, start R and enter:
-
 ```
-install.packages("mse", repos="http://flr-project.org/R")
-```
-
-or directly from the github repository by using:
-
-```
-remotes::install_github("flr/mse")
+remotes::install_github("BernhardKuehn/mseEMSRR")
 ```
 
 ## Documentation
@@ -35,7 +25,8 @@ Copyright (c) 2016-2022 European Union. European Commission Joint Research Centr
 ## Contact
 You are welcome to:
 
-- Submit suggestions and bug-reports at: <https://github.com/flr/mseEMSRR/issues>
-- Send a pull request on: <https://github.com/flr/mseEMSRR/>
-- Authors: Iago Mosqueira, WUR. Ernesto Jardim, EC JRC.
-- Maintainer: Iago Mosqueira, WMR.
+- Submit suggestions and bug-reports at: <https://github.com/BernhardKuehn/mseEMSRR/issues>
+- Send a pull request on: <https://github.com/BernhardKuehn/mseEMSRR/>
+- Authors of the 'mse'-package: Iago Mosqueira, WUR. Ernesto Jardim, EC JRC.
+- Maintainer of the 'mse' package: Iago Mosqueira, WMR.
+- Maintainer of the 'mseEMSRR' package: Bernhard Kuehn
