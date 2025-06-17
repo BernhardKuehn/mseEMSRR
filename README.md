@@ -8,10 +8,15 @@
 ## Overview
 
 Tools for constructing, running and analyzing Management Strategy Evaluation simulations using FLR.
-This fork of the 'mse' package allows the use to integrate environmentally-driven stock-recruitment relationships explicitly, by building on the 'FLasherEMSRR' package. 
+This fork of the 'mse' package allows the use to integrate environmentally-driven stock-recruitment relationships explicitly, by building on the [FLasherEMSRR](https://github.com/BernhardKuehn/FLasherEMSRR) package. 
 
 ## Installation
-To install this package, start R and enter:
+
+First 'FLasherEMSRR' needs to be installed for 'mseEMSRR' to work. Start R and enter: 
+```
+remotes::install_github("BernhardKuehn/FLasherEMSRR")
+```
+Next install the 'mseEMSRR' package by entering:
 ```
 remotes::install_github("BernhardKuehn/mseEMSRR")
 ```
