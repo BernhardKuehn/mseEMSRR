@@ -6,9 +6,9 @@
 #
 # Distributed under the terms of the European Union Public Licence (EUPL) V.1.1.
 
-library(FLasher)
+library(FLasherEMSRR)
 library(FLBRP)
-library(mse)
+library(mseEMSRR)
 
 # LOAD OM (FLStock + FLSR)
 data(cod)

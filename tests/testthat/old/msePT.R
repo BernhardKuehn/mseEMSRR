@@ -6,7 +6,7 @@
 #
 # Distributed under the terms of the European Union Public Licence (EUPL) V.1.1.
 
-library(mse)
+library(mseEMSRR)
 library(ioalbmse)
 
 data(oms)

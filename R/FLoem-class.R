@@ -27,6 +27,7 @@
 #' @name FLoem-class
 #' @rdname FLoem-class
 #' @examples
+#' # No examples provided yet...
 # TODO ADD example
 
 FLoem <- setClass("FLoem", 

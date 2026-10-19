@@ -1,1 +1,5 @@
 vignettes/tex/*
+.Rproj.user
+.Rhistory/
+*.pptx/
+*.ppt/

@@ -10,7 +10,7 @@
 
 # LOAD packages
 
-library(mse)
+library(mseEMSRR)
 library(FLa4a)
 library(ggplotFL)
 

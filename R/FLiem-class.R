@@ -10,7 +10,8 @@
 #' @name FLiem-class
 #' @rdname FLiem-class
 #' @aliases FLiem-class
-#' @examples
+#' @examples 
+#' # No examples given yet...
 
 FLiem <- setClass("FLiem", contains = "mseCtrl")
 

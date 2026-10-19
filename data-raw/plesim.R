@@ -6,7 +6,7 @@
 #
 # Distributed under the terms of the EUPL-1.2
 
-library(mse)
+library(mseEMSRR)
 library(FLRef)
 
 iy <- 1960

@@ -39,11 +39,11 @@ floval <- list(object="om", test="!is(object, \"FLo\")",
 
 #' Title
 #'
-#' @param ioval
-#' @param ...
-#' @param step
+#' @param ioval # Not sure what that means...
+#' @param p Still needs a description...
+#' @param step the step
 #'
-#' @return
+#' @return Still needs a description...
 #' @export
 
 mpDispatch <- function(ioval, ..., step){

@@ -3,7 +3,7 @@ import("data.table")
 import("FLCore")
 import("ggplotFL")
 import("FLFishery")
-import("FLasher")
+import("FLasherEMSRR")
 
 importFrom("progressr",
   "handler_cli",

@@ -19,12 +19,12 @@ make install
 ### Testing
 ```bash
 # Run all tests
-R CMD check ../mse_*.tar.gz
+R CMD check ../mseEMSRR_*.tar.gz
 
 # Run tests from R console
 library(testthat)
-library(mse)
-test_check("mse")
+library(mseEMSRR)
+test_check("mseEMSRR")
 
 # Run specific test file
 test_file("tests/testthat/test-mp.R")

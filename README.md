@@ -1,37 +1,36 @@
-# mse <img src="man/figures/logo.png" align="right" width="120" />
+# mseEMSRR <img src="hexsticker/hexsticker.png" align="right" width="170" />
 
-[![License](https://flrproject.org/img/eupl_1.2.svg)](https://eupl.eu/1.2/en)
-[![r-universe](https://flr.r-universe.dev/badges/mse)](https://flr.r-universe.dev/mse)
-[![GitHub issues](https://img.shields.io/github/issues/flr/mse)](https://github.com/flr/mse/issues)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/flr/mse)
+[![R-CMD-check](https://github.com/flr/mseEMSRR/workflows/R-CMD-check/badge.svg)](https://github.com/flr/mseEMSRR/actions)
+[![License](https://eddelbuettel.github.io/badges/GPL2+.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
+[![Lifecycle:Experimental](https://img.shields.io/badge/Lifecycle-Experimental-339999)](<Redirect-URL>)
 
 ## Overview
 
 Tools for constructing, running and analyzing Management Strategy Evaluation simulations using FLR.
+This fork of the 'mse' package allows the use to integrate environmentally-driven stock-recruitment relationships explicitly, by building on the [FLasherEMSRR](https://github.com/BernhardKuehn/FLasherEMSRR) package. 
 
 ## Installation
-To install this package, start R and enter:
 
+First 'FLasherEMSRR' needs to be installed for 'mseEMSRR' to work. Start R and enter: 
 ```
-install.packages("mse", repos="http://flrproject.org/R")
+remotes::install_github("BernhardKuehn/FLasherEMSRR")
 ```
-
-Or do so directly from the github repository by using:
-
+Next install the 'mseEMSRR' package by entering:
 ```
-remotes::install_github("flr/mse")
+remotes::install_github("BernhardKuehn/mseEMSRR")
 ```
 
 ## Documentation
-- [Help pages](http://flrproject.org/mse)
+- [Help pages](http://flr-project.org/mse)
 
 ## License
-Copyright (c) 2016-2026 European Union. European Commission Joint Research Centre D.02. Released under the [EUPL 1.2](https://eupl.eu/1.2/en).
+Copyright (c) 2016-2022 European Union. European Commission Joint Research Centre D.02. Released under the [EUPL 1.1](https://joinup.ec.europa.eu/community/eupl/og_page/eupl).
 
 ## Contact
 You are welcome to:
 
-- Submit suggestions and bug-reports at: <https://github.com/flr/mse/issues>
-- Send a pull request on: <https://github.com/flr/mse/>
-- Authors: Iago Mosqueira, WMR. Ernesto Jardim, IPMA.
-- Maintainer: Iago Mosqueira, WMR.
+- Submit suggestions and bug-reports at: <https://github.com/BernhardKuehn/mseEMSRR/issues>
+- Send a pull request on: <https://github.com/BernhardKuehn/mseEMSRR/>
+- Authors of the 'mse'-package: Iago Mosqueira, WUR. Ernesto Jardim, EC JRC.
+- Maintainer of the 'mse' package: Iago Mosqueira, WMR.
+- Maintainer of the 'mseEMSRR' package: Bernhard Kuehn

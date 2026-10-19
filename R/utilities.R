@@ -78,7 +78,7 @@ setFCB <- function(output=c("catch", "landings", "discards", "fbar", "f",
   output <- match.arg(output)
 
   # EXTRACT valid FCB for output
-  targets <- subset(FLasher:::.vfcb, quant == output)[1,]
+  targets <- subset(FLasherEMSRR:::.vfcb, quant == output)[1,]
 
   # BUILD FCB list
   fcb <- ifelse(unlist(targets[c("fishery", "catch", "biol")]),

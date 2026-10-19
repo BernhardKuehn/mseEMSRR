@@ -125,7 +125,7 @@ setMethod("undebug", signature(fun="FLo"),
 #' @aliases fwd.om
 #' @param object the OM as a FLStock
 #' @param ctrl the fwdControl object with objectives and constraints
-#' @param ... 
+#' @param Still needs a description...
  
 fwd.om <- function(om, ctrl, ...){
 	

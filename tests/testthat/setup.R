@@ -14,7 +14,7 @@ data(statistics)
 # -- SETUP: Load test data and define test statistics {{{
 
 # # Load example operating model
-# load(system.file("data", "plesim.rda", package="mse"))
+# load(system.file("data", "plesim.rda", package="mseEMSRR"))
 # 
 # # Add missing reference points
 # refpts(om)$MSY <- refpts(om)$SBMSY * 0.30

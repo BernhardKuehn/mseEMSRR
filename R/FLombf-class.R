@@ -534,7 +534,8 @@ partialHR <- function(om) {
 #' @param object An \code{FLombf} object.
 #' @return An FLQuant (or aggregated FLQuant) that is the sum of the partial
 #'   harvest rates across fisheries.
-#' @examples
+#' @examples 
+#' NULL
 
 setMethod("hr", signature(object="FLombf"), 
   function(object) {

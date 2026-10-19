@@ -344,6 +344,7 @@ setReplaceMethod("args", signature(object="mpCtrl", value="ANY"),
 # debug & undebug  {{{
 
 #' @rdname debug-mse
+#' @details
 #' Objects of calss mpCtrl contain one or more modules (mseCtrl). The module to
 #' debug is specified as a character argument matching its name, e.g.
 #' *debug(mpCtrl, "est")*.
@@ -383,9 +384,9 @@ setMethod("undebug", signature(fun="mpCtrl", signature="missing"),
 #'
 #' DEFINITION
 #'
-#' @param control
-#' @param ...
-#' @value
+#' @param control an mse-ctrl obj
+#' @param parameters the parameters provided
+#' @return return arguments for the function
 #' @examples
 #' # Example dataset
 #' data(plesim)

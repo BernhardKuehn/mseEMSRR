@@ -54,7 +54,7 @@
 #' @name FLmse-class
 #' @rdname FLmse-class
 #' @aliases FLmse-class
-#' @examples
+#' @examples Still needs a description...
 #'
 
 FLmse <- setClass("FLmse",

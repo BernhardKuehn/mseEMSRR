@@ -179,10 +179,10 @@ hockeystick.hcr <- function(stk, ind, target, trigger, lim=0, min=0, drop=0,
 
 # plot_hockeystick.hcr {{{
 
-#' @rdname hochestick.hcr
-#' @details
+#' @rdname hockestick.hcr
+#' @details Still needs a description...
 #'
-#' @params
+#' @param Still needs a description...
 #' @examples
 #' data(ple4)
 #'

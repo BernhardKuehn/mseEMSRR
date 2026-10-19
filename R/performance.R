@@ -12,7 +12,7 @@ globalVariables(c(".", "data", "mp", "om", "run", "statistic", "age", "unit",
 # .functions {{{
 
 # .validStatistics: returns statistics valid for the input object
-.validStatistics <- function(x, statistics=mse::statistics) {
+.validStatistics <- function(x, statistics=mseEMSRR::statistics) {
 
   # FIND needed elements
   needs <- lapply(statistics, function(x) {
@@ -260,7 +260,7 @@ NULL
 #'   refpts=refpts(om), om="ple", run="r00", type="test")
 
 setMethod("performance", signature(x="FLQuants"),
-  function(x, statistics=mse::statistics[c("C", "F", "SB", "AAVC")],
+  function(x, statistics=mseEMSRR::statistics[c("C", "F", "SB", "AAVC")],
     refpts=FLPar(), years=setNames(nm=dimnames(x[[1]])$year[-1]),
     om=character(0), type=character(0), run=character(0),
     mp=paste(c(om, type, run), collapse="_"), ...) {
@@ -383,7 +383,7 @@ setMethod("performance", signature(x="FLQuants"),
 #'   run="r00", type="test")
 
 setMethod("performance", signature(x="FLo"),
-  function(x, refpts=x@refpts, statistics=mse::statistics[c('C', 'F', 'HR', 'SB')],
+  function(x, refpts=x@refpts, statistics=mseEMSRR::statistics[c('C', 'F', 'HR', 'SB')],
     metrics=NULL, om=name(x), ...) {
 
     # COMPUTE metrics
@@ -414,7 +414,7 @@ setMethod("performance", signature(x="FLo"),
 
 setMethod("performance", signature(x="FLombf"),
   function(x, refpts=FLCore::refpts(x),
-    statistics=mse::statistics[c('C', 'F', 'HR', 'SB')],
+    statistics=mseEMSRR::statistics[c('C', 'F', 'HR', 'SB')],
     metrics=NULL, om=name(x), ...) {
 
     # COMPUTE metrics, argument hides metrics method
@@ -743,7 +743,7 @@ setMethod("performance", signature(x="list"),
     # - list(FLom | FLombf), compute performance
     if(all(unlist(lapply(x, is, 'FLo')))) {
       if(missing(statistics))
-        statistics <- mse::statistics[c('C', 'F', 'SB')]
+        statistics <- mseEMSRR::statistics[c('C', 'F', 'SB')]
 
       res <- rbindlist(Map(function(i, j) {
         call <- c(list(x=i, statistics=statistics, years=years, run=j),

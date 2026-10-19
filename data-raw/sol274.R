@@ -11,7 +11,7 @@
 # - SETS future deviances on stk and idx.
 
 
-library(mse)
+library(mseEMSRR)
 library(AAP)
 library(FLBRP)
 library(FLSRTMB)

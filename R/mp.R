@@ -251,7 +251,7 @@ mp <- function(om, oem=NULL, iem=NULL, control=ctrl, ctrl=control, args,
       .errorhandling = "remove", 
       .options.future=list(seed=seed, globals=structure(TRUE,
         add=c("ctrl", "om", "oem", "iem", "args"),
-        packages=c("FLCore", "FLasher", "mse"))),
+        packages=c("FLCore", "FLasherEMSRR", "mseEMSRR"))),
       .inorder=TRUE) %dofuture% {
 
         call0 <- list(
