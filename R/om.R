@@ -208,8 +208,8 @@ deplete <- function(biol, sel, dep, minfbar=dims(biol)$min,
 
 # simulator {{{
 
-#' @param biol
-#' @param fisheries
+#' @param biol Biols-obj
+#' @param fisheries Fisheries-obj
 #' @param v Virgin total biomass or carrying capacity (K).
 #' @param h Steepness of the Beverton & Holt stock-recruitment relationship.
 #' @param d Initial depletion level, as proportion of v.

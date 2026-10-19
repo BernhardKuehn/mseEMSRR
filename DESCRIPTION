@@ -63,6 +63,7 @@ Collate:
   'tm.R'
   'om.R'
   'statistics.R'
+  'zzz.R'
 License: EUPL
 LazyLoad: true
 LazyData: false
