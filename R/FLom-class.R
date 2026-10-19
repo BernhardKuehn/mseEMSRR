@@ -60,8 +60,8 @@
 #' @author The FLR Team
 #' @seealso \link{FLComp}
 #' @keywords classes
-#' @examples
-#'
+#' @examples 
+#' NULL
 
 FLom <- setClass("FLom", 
 	representation("FLo",
