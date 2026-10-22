@@ -138,7 +138,7 @@ fwd.om <- function(om, ctrl, ...){
   om <- tryCatch(do.call(fwd, args),
     # error, STOP
     error = function(e) {
-      stop("fwd() could not be run, check args and ctrl, use debug(om)")
+      stop("OM fwd() failed: ", conditionMessage(e), call. = FALSE)
     }
   )
 
