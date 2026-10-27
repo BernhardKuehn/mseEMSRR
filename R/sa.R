@@ -152,7 +152,7 @@ perfect.sa <- function(stk, idx, args, tracking, ...) {
 #' @keywords methods
 
 shortcut.sa <- function(stk, idx, metric="ssb", SSBdevs=met %=% 1, devs=SSBdevs,
-                        args, tracking, dy, y0, ...) {
+                        args, tracking, ...) {
   
   # DIMS
   spread(args)
